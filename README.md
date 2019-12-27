@@ -3,7 +3,7 @@ Object detection, 3D detection, and pose estimation using center point detection
 ![](readme/fig2.png)
 > [**Objects as Points**](http://arxiv.org/abs/1904.07850),            
 > Xingyi Zhou, Dequan Wang, Philipp Kr&auml;henb&uuml;hl,        
-> [**CenterNet**](https://github.com/xingyizhou/centernet)         
+> [**CenterNet code**](https://github.com/xingyizhou/centernet)         
 
 
 ## 1. Backebone
@@ -26,7 +26,7 @@ Object detection, 3D detection, and pose estimation using center point detection
 |ResNet-101    | 34.6 / 45 | 36.2 / 25    | 39.3 / 4              |
 |ResNet-18     | 28.1 / 142| 30.0 / 71    | 33.2 / 12             |
 
-All models and details are available in > [**CenterNet**](https://github.com/xingyizhou/CenterNet/blob/master/readme/MODEL_ZOO.md)  
+All models and details are available in > [**CenterNet MODEL_ZOO**](https://github.com/xingyizhou/CenterNet/blob/master/readme/MODEL_ZOO.md)  
 
 ![shoulder](images/shoulder.png)
 
@@ -67,6 +67,8 @@ python convert2onnx.py
 ```
 python demo_tensorrt.py
 ```
+
+3. 检测框架支持的TensorRT
 
 > [**TensorRT C++**](https://github.com/CaoWGG/TensorRT-CenterNet) 
 
