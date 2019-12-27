@@ -3,7 +3,7 @@ Object detection, 3D detection, and pose estimation using center point detection
 ![](readme/fig2.png)
 > [**Objects as Points**](http://arxiv.org/abs/1904.07850),            
 > Xingyi Zhou, Dequan Wang, Philipp Kr&auml;henb&uuml;hl,        
-> [**github**](https://github.com/xingyizhou/centernet)         
+> [**CenterNet**](https://github.com/xingyizhou/centernet)         
 
 
 ## 1. Backebone
@@ -25,6 +25,8 @@ Object detection, 3D detection, and pose estimation using center point detection
 |DLA-34        | 37.4 / 52 | 39.2 / 28    | 41.7 / 4              |
 |ResNet-101    | 34.6 / 45 | 36.2 / 25    | 39.3 / 4              |
 |ResNet-18     | 28.1 / 142| 30.0 / 71    | 33.2 / 12             |
+
+All models and details are available in > [**CenterNet**](https://github.com/xingyizhou/CenterNet/blob/master/readme/MODEL_ZOO.md)  
 
 ![shoulder](images/shoulder.png)
 
@@ -54,8 +56,19 @@ Object detection, 3D detection, and pose estimation using center point detection
 - **centerface**: 该版本的centerface是基于修改的centernet训练，训练数据参照widerface，其中对质量不好的face做了过滤，使其更适合人脸识别的工程应用，模型有两个，分别是3.5M和8.9M.
 
 ## 3. TensorRT
+1. torch转onnx
 
-> [**参考github**](https://github.com/CaoWGG/TensorRT-CenterNet) 
+```
+python convert2onnx.py
+```
+
+2. onnx转TensorRT
+
+```
+python demo_tensorrt.py
+```
+
+> [**TensorRT C++**](https://github.com/CaoWGG/TensorRT-CenterNet) 
 
 ## Citation
 
