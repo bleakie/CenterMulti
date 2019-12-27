@@ -35,13 +35,13 @@ All models and details are available in > [**CenterNet MODEL_ZOO**](https://gith
 - **姿态估计or关键点检测**: 修改keypoint的数量及coco加载keypoint的格式可针对性训练多种形式的pose(如landmark等)
 
       
-> [**参考github**](https://github.com/tensorboy/centerpose) 
+> [**姿态估计参考centerpose**](https://github.com/tensorboy/centerpose) 
 
 | Backbone     |  AP       |  FPS         | TensorRT Speed | Download |
 |--------------|-----------|--------------|----------|----------|
 |DLA-34        | 62.7      |    23      |  - |[model](https://drive.google.com/open?id=1IahJ3vpjTVu1p-Okf6lcn-bM7fVKNg6N)  |
 |Resnet-50     | 54.5     |    28      |  33 |[model](https://drive.google.com/open?id=1oBgWrfigo2fGtpQJXQ0stADTgVFxPWGq)  |
-|MobilenetV3   | 46.0      |    30      |  - |[model](https://drive.google.com/open?id=1snJnADAD1NUzyO1QXCftuZu1rsr8095G)  |
+|MobilenetV3   | 46.0      |    30      |  50 |[model](https://drive.google.com/open?id=1snJnADAD1NUzyO1QXCftuZu1rsr8095G)  |
 |ShuffleNetV2  | 43.9      |    25      |  - |[model](https://drive.google.com/open?id=1FK7YQzCB6mLcb0v4SOmlqtRJfA-PQSvN)  |
 |[High Resolution](https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation)| 57.1    |    16      |  - |[model](https://drive.google.com/open?id=1X0yxGeeNsD4VwU2caDo-BaH_MoCAnU_J)  |
 |[HardNet]()| 45.6    |    30        | -  |[model](https://drive.google.com/open?id=1Y75bGuJyf1_Tr0ksoJ5Z7xaCp4v5DG2g)  |
