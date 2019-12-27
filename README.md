@@ -10,7 +10,7 @@ Object detection, 3D detection, and pose estimation using center point detection
 
 - **Strong**: 增加支持mobilenetV2,mobilenetV3,efficientdet，shufflenetv2，部分网络需要支持DCNv2.
 
-![](Backebone/performance.png)
+![performance](Backebone/performance.png)
 
 ## 2. Purpose
 
@@ -26,10 +26,7 @@ Object detection, 3D detection, and pose estimation using center point detection
 |ResNet-101    | 34.6 / 45 | 36.2 / 25    | 39.3 / 4              |
 |ResNet-18     | 28.1 / 142| 30.0 / 71    | 33.2 / 12             |
 
-
-> [**shoulder_mobilenetv2模型**](https://github.com/tensorboy/centerpose) 
-
-![](images/shoulder.png)
+![shoulder](images/shoulder.png)
 
 ### 2.2 keypoint or pose
 
@@ -48,15 +45,13 @@ Object detection, 3D detection, and pose estimation using center point detection
 |[HardNet]()| 45.6    |    30        | -  |[model](https://drive.google.com/open?id=1Y75bGuJyf1_Tr0ksoJ5Z7xaCp4v5DG2g)  |
 |[Darknet53]()| 34.2    |    30        | -  |[model](https://drive.google.com/open?id=1S8spP_QKHqIYmWpfF9Bb4-4OoUXIOnkh)  |
 
-
-
-- **centerface**: 该版本的centerface是基于修改的centernet训练，训练数据参照widerface，其中对质量不好的face做了过滤，使其更适合人脸识别的工程应用，模型有两个，分别是3.5M和8.9M.
-
-![](images/face_landmark.png)
+![face_landmark](images/face_landmark.png)
 
 ### 2.3 model
 
-> [**CenterMulti**](https://pan.baidu.com/s/1ac4KiYdeTjruXiUsYu6HmA) 提取码: 33fj
+> [**centerface与shoulder模型**](https://pan.baidu.com/s/1ac4KiYdeTjruXiUsYu6HmA) 提取码: 33fj
+
+- **centerface**: 该版本的centerface是基于修改的centernet训练，训练数据参照widerface，其中对质量不好的face做了过滤，使其更适合人脸识别的工程应用，模型有两个，分别是3.5M和8.9M.
 
 ## 3. TensorRT
 
