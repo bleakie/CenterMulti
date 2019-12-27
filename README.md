@@ -26,7 +26,6 @@ Object detection, 3D detection, and pose estimation using center point detection
 |ResNet-101    | 34.6 / 45 | 36.2 / 25    | 39.3 / 4              |
 |ResNet-18     | 28.1 / 142| 30.0 / 71    | 33.2 / 12             |
 
-
 ![shoulder](images/shoulder.png)
 
 ### 2.2 keypoint or pose
