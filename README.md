@@ -72,6 +72,19 @@ python demo_tensorrt.py
 
 > [**TensorRT C++**](https://github.com/CaoWGG/TensorRT-CenterNet) 
 
+
+```
+    #shoulder检测模型支持该框架加速（不需要DCNs），total runtime = 3.82147 ms
+    #在include/ctdetConfig.h里添加以下，然后cmake即可
+    constexpr static int input_w = 512 ;
+    constexpr static int input_h = 512 ;
+    constexpr static int channel = 3 ;
+    constexpr static int classNum = 1 ;
+    constexpr static float mean[]= {0.408, 0.447, 0.470};
+    constexpr static float std[] = {0.289, 0.274, 0.278};
+    constexpr static char *className[]= {(char*)"shoulder"};
+```
+
 ## Citation
 
 If you find this project useful for your research, please use the following BibTeX entry.
