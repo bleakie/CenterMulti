@@ -55,6 +55,10 @@ All models and details are available in > [**CenterNet MODEL_ZOO**](https://gith
 
 - **centerface**: 该版本的centerface是基于修改的centernet训练，训练数据参照widerface，其中对质量不好的face做了过滤，使其更适合人脸识别的工程应用，模型有两个，分别是3.5M和8.9M.
 
+```
+centerface的训练：例如修改lib/datasets/coco_hp.py里num_joints = 5;flip_idx = [[0, 1], [3, 4]]以及整个项目里17的关节点数全部置换成5，dets[39:51]这类全部换成dets[15:20]等
+```
+
 ## 3. TensorRT
 1. torch转onnx
 
