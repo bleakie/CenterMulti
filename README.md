@@ -29,6 +29,7 @@ Object detection, 3D detection, and pose estimation using center point detection
 All models and details are available in > [**CenterNet MODEL_ZOO**](https://github.com/xingyizhou/CenterNet/blob/master/readme/MODEL_ZOO.md)  
 
 ![shoulder](images/shoulder.png)
+![defect](images/defect.png)
 
 ### 2.2 keypoint or pose
 
@@ -51,7 +52,9 @@ All models and details are available in > [**CenterNet MODEL_ZOO**](https://gith
 
 ### 2.3 model
 
-> [**centerface与shoulder模型**](https://pan.baidu.com/s/1ac4KiYdeTjruXiUsYu6HmA) 提取码: 33fj
+> [**centerface/shoulder/defect模型**](https://pan.baidu.com/s/1DzlvIZ3ujEzNLsU50UWLNw) 提取码: u3pq
+
+- **defect**: defect模型基于mobilenetv2训练，由于部分数据标定不准，所以结果会有偏差，建议只供pre-train.
 
 - **centerface**: 该版本的centerface是基于修改的centernet训练，训练数据参照widerface，其中对质量不好的face做了过滤，使其更适合人脸识别的工程应用，模型有两个，分别是3.5M和8.9M.
 
