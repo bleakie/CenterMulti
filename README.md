@@ -12,6 +12,8 @@ Object detection, 3D detection, and pose estimation using center point detection
 
 ![performance](Backebone/performance.png)
 
+- **Data process**: 添加widerface转coco格式，参见root/data_process.
+
 ## 2. Purpose
 
 ### 2.1 Object Detection
