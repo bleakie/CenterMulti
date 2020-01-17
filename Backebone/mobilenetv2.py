@@ -36,7 +36,7 @@ class ConvBNReLU(nn.Sequential):
         super(ConvBNReLU, self).__init__(
             nn.Conv2d(in_planes, out_planes, kernel_size, stride, padding, groups=groups, bias=False),
             nn.BatchNorm2d(out_planes),
-            nn.ReLU6(inplace=True)
+            nn.ReLU(inplace=True) #replace ReLU6
         )
 
 
