@@ -3,7 +3,8 @@ Object detection, 3D detection, and pose estimation using center point detection
 ![](readme/fig2.png)
 > [**Objects as Points**](http://arxiv.org/abs/1904.07850),            
 > Xingyi Zhou, Dequan Wang, Philipp Kr&auml;henb&uuml;hl,        
-> [**CenterNet code**](https://github.com/xingyizhou/centernet)         
+> [**CenterNet code**](https://github.com/xingyizhou/centernet)      
+> 更强大的centernet优化版本(https://github.com/jinfagang/CenterNet_Pro_Max)
 
 
 ## 1. Backebone
