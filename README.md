@@ -6,7 +6,7 @@ Object detection, 3D detection, and pose estimation using center point detection
 
 **`2020.04.09`**:[**基于centernet的the-state-of-the-art目标跟踪方法**](https://github.com/xingyizhou/CenterTrack)
 
-                                        ![tracker](images/coco_det.gif)    
+   ![tracker](images/coco_det.gif)    
 
 **`2020.03.25`**: > [**更强大的centernet优化版本，resnet50+without DCN+mAP=35.7(3.1% )↑**](https://github.com/jinfagang/CenterNet_Pro_Max)
 
