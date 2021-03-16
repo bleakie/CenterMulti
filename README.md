@@ -4,6 +4,18 @@ Object detection, 3D detection, and pose estimation using center point detection
 > [**Objects as Points**](http://arxiv.org/abs/1904.07850),            
 > Xingyi Zhou, Dequan Wang, Philipp Kr&auml;henb&uuml;hl,
 
+**`2021.03.16`**:[**centernet2横空出世**](https://github.com/xingyizhou/CenterNet2)
+
+#### COCO
+
+| Model                                     |  COCO val mAP |  FPS  |
+|-------------------------------------------|---------------|-------|
+| CenterNet-S4_DLA_8x                       |  42.5         |   71  |
+| CenterNet2_R50_1x                         |  42.9         |   24  |
+| CenterNet2_X101-DCN_2x                    |  49.9         |    8  |
+| CenterNet2_R2-101-DCN-BiFPN_4x+4x_1560_ST |  56.1         |    5  |
+| CenterNet2_DLA-BiFPN-P5_24x_ST            |  49.2         |   38  |
+
 **`2020.04.09`**:[**基于centernet的the-state-of-the-art目标跟踪方法**](https://github.com/xingyizhou/CenterTrack)
 
    ![tracker](images/coco_det.gif)    
